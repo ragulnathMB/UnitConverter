@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="heading">heading</string>
+    <string-array name="weight">
+        <item name="kilogram">Kilogram(kg)</item>
+        <item name="gram">gram(g)</item>
+        <item name="ton">ton(t)</item>
+        <item name="pound">pound(lbs)</item>
+        <item name="ounce">ounce(oz)</item>
+        <item name="carat">carat(ct)</item>
+        <item name="grain">grain(gr)</item>
+        <item name="quintal">quintal(cwt)</item>
+    </string-array>
+    <string-array name="length">
+        <item name="meter">meter(m)</item>
+        <item name="kilometer">Kilometer(km)</item>
+        <item name="mile">mile(mi)</item>
+        <item name="yard">yard(yd)</item>
+        <item name="inch">inch(in)</item>
+        <item name="foot">foot(f)</item>
+        <item name="millimeter">millimeter(mm)</item>
+        <item name="centimeter">centimeter(cm)</item>
+        <item name="nautical mile">nautical mile(international)</item>
+        <item name="parsec">parsec(pc)</item>
+    </string-array>
+    <string-array name="temperature">
+        <item name="Celsius">Celsius(ºC)</item>
+        <item name="Fahrenheit">Fahrenheit(ºF)</item>
+        <item name="Kelvin">Kelvin(K)</item>
+    </string-array>
+    <string-array name="Area">
+        <item name="square meter">Square meter(m^2)</item>
+        <item name="Square Km">Square Km(km^2)</item>
+        <item name="Square cm">Square cm(cm^2)</item>
+        <item name="hectare">hectare(ha)</item>
+        <item name="Acre">Acre(ac)</item>
+        <item name="Square mile">Square mile(mi^2)</item>
+        <item name="Square yard">Square yard(yd^2)</item>
+        <item name="Square Foot">Square Foot(f^2)</item>
+        <item name="Square inch">Square Inch(in^2)</item>
+    </string-array>
+    <string-array name="time">
+        <item name="second">second(sec)</item>
+        <item name="hour">hour(hr)</item>
+        <item name="minute">minute(min)</item>
+        <item name="day">day(d)</item>
+        <item name="week">week(wk)</item>
+        <item name="month">month(mon)</item>
+        <item name="year">year(yr)</item>
+        <item name="decade">decade(dec)</item>
+        <item name="century">century(cnt)</item>
+    </string-array>
+    <string-array name="data">
+        <item name="nibble">nibble</item>
+        <item name="byte">Byte</item>
+        <item name="bit">Bit</item>
+        <item name="KiloByte">KiloByte(KB)</item>
+        <item name="Megabyte">Megabyte(MB)</item>
+        <item name="Gigabyte">GigaByte(GB)</item>
+        <item name="TeraByte">TeraByte(TB)</item>
+    </string-array>
+    <string-array name="energy">
+        <item name="Joule">Joule(J)</item>
+        <item name="KiloJoule">KiloJoule(KJ)</item>
+        <item name="KiloWatt-hour">KiloWatt-hour(Kwh)</item>
+        <item name="watt-hour">watt-hour(wh)</item>
+        <item name="Calorie">Calorie(cal)</item>
+        <item name="horse-power">horse-power(hp)</item>
+    </string-array>
+    <string-array name="volume">
+        <item name="Cubic centimeter">Cubic centimeter(cm^3)</item>
+        <item name="Cubic meter">Cubic meter(m^3)</item>
+        <item name="Cubic kilometer">Cubic Kilometer(km^3)</item>
+        <item name="liter">liter(L)</item>
+        <item name="milli liter">milli liter(mL)</item>
+        <item name="Gallon">Gallon</item>
+        <item name="US table spoon">US table Spoon</item>
+        <item name="US teaspoon">US teaspoon</item>
+        <item name="Imperial teaspoon">Imperial teaspoon</item>
+        <item name="Imperial tablespoon">Imperial tablespoon</item>
+    </string-array>
+    <string-array name="numeralSystem">
+        <item name="decimal">decimal</item>
+        <item name="binary">binary</item>
+        <item name="octal">octal</item>
+        <item name="hexadecimal">hexadecimal</item>
+    </string-array>
+
+</resources>

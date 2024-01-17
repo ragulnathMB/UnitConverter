@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/SCREEN">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button31"
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        style="@style/BUTTON"
+                        android:fontFamily="@font/audiowide"
+                        android:onClick="back"
+                        android:text="Back" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+                        style="@style/SPIN"
+                        android:background="@drawable/spinnerbackground"
+                        android:popupBackground="#2E2E2E"/>
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="35dp"
+                        android:layout_height="15dp"
+                        app:srcCompat="@drawable/arrow"/>
+                    <Spinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+                        style="@style/SPIN"
+                        android:background="@drawable/spinnerbackground"
+                        android:popupBackground="#2E2E2E"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/editTextNumberDecimal"
+                        android:layout_width="140dp"
+                        android:layout_height="57dp"
+                        android:inputType="number|numberDecimal|numberSigned" />
+
+                    <TextView
+                        android:layout_width="47dp"
+                        android:layout_height="0dp"
+                        android:text="" />
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="139dp"
+                        android:layout_height="69dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textAlignment="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/button29"
+                        android:layout_width="194dp"
+                        android:layout_height="49dp"
+                        style="@style/BUTTON"
+                        android:fontFamily="@font/audiowide"
+                        android:text="Convert"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="365dp"
+                        android:layout_height="87dp"
+                        android:text=""
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
